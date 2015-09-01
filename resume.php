@@ -16,7 +16,7 @@ include("includes/header.php")
         </header>
 
         <!-- ratio = 1.294117647 -->
-        <iframe src="http://docs.google.com/gview?url=http://montanawong.me/images/Montana_Wong_Resume.pdf&embedded=true"
+        <iframe src="http://docs.google.com/gview?url=http://montanawong.xyz/images/Montana_Wong_Resume.pdf&embedded=true"
                 style="width:618px;height:800px;"
                 frameborder="0">
             <p>Browser outdated</p>

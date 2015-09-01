@@ -30,6 +30,8 @@
 <!-- One -->
 <section id="one" class="wrapper special">
     <div class="inner">
+
+        <img src="photo.jpg">
         <header class="major">
             <h2>About Me</h2>
         </header>

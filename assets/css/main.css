@@ -2343,6 +2343,9 @@
 			.image.main img {
 				width: 100%;
 			}
+            .image-circle{
+                border-radius: 50%;
+            }
 
 /* List */
 
