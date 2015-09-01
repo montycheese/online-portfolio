@@ -6,6 +6,10 @@
  * Time: 22:18
  */
 
+if(empty($_POST)){
+	header("Location: ../index.php");
+	exit();
+}
 $send_to = "montanawong@gmail.com";
 $from = $_POST['email'];
 $name = $_POST['name'];
