@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 
 <html>
@@ -11,7 +10,7 @@
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 </head>
 <body>
-
+<?php include_once("includes/googleanalytics.php");?>
 <!-- Banner -->
 <section id="banner">
     <h2><strong>Montana Wong </strong></h2>

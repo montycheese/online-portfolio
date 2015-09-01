@@ -12,7 +12,7 @@
 
 
 <body>
-
+<?php include_once("includes/googleanalytics.php");?>
 <!-- Banner -->
 <section id="banner_small">
     <h2><strong>Montana Wong </strong></h2>
