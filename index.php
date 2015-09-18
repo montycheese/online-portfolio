@@ -45,7 +45,7 @@
         </p>
         <div class="features">
             <div class="feature">
-                <a href="projects.php">
+                <a href="under_construction.php">
                     <i class="fa fa-diamond"></i>
                     <h3>Software Projets</h3>
                     <p>A handful of projects from a variety of applications</p>
