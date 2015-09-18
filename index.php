@@ -45,7 +45,7 @@
         </p>
         <div class="features">
             <div class="feature">
-                <a href="under_construction.php">
+                <a href="projects.php">
                     <i class="fa fa-diamond"></i>
                     <h3>Software Projets</h3>
                     <p>A handful of projects from a variety of applications</p>
@@ -108,15 +108,8 @@
     </div>
 </section>
 
-<!-- Footer -->
+<!-- Footer includes javascript imports-->
 <?php include("includes/footer.php");?>
-
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
 
 </body>
 </html>
