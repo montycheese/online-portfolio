@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <Presidential>
+  <image href="http://mwong.mynmi.net/4310/project2/images/bg.jpeg" />
+  <item>
+  <Name>Barack Obama</Name>
+  <Position>President</Position>
+  <official_title>44th President of the United States</official_title>
+  <department>Executive Office of the President</department>
+  <years>Second Term</years>
+  <career>Senator of Illinois, Comumunity organizer, lawyer, constitutional law professor, author</career>
+  <edu>B.A. Columbia, J.D. Harvard Law School</edu>
+  <description>The Presidental position is the head of state and head of government of the United States. The president leads the executive branch of the federal government and is the commander-in-chief of the United States Armed Forces.</description>
+  <website>http://www.whitehouse.gov</website>
+  <image href="http://mwong.mynmi.net/4310/project2/Images/president.jpeg" />
+
+  </item>
+   
+   <item>
+  <Name>Joseph Biden</Name>
+  <Position>Vice President</Position>
+  <official_title>Vice President of the United States</official_title>
+  <department>Office of the Vice President</department>
+  <years>Second Term</years>
+  <career>Senator of Delaware, Lawyer</career>
+  <edu>B.A. University of Delaware, J.D. Syracuse University</edu>
+  <description>The Vice President is the first person in the presidential line of succession, and takes the Presidency upon the death, resignation, or removal of the President. They also have the power to overturn a tie in the Senate.</description>
+  <website>http://www.whitehouse.gov/administration/vice-president-biden/</website>
+  <image href="http://mwong.mynmi.net/4310/project2/images/vice.jpeg" />
+  </item>
+   
+   <item>
+  <Name>John Kerry</Name>
+  <Position>Secretary of State</Position>
+  <official_title>Secretary of State of the United States</official_title>
+  <department>Department of State</department>
+  <years>First term</years>
+  <career>Navy, Lieutenant Govenor, Senator of Massachusettes</career>
+  <edu>Yale, J.D. Boston College</edu>
+  <description>The Secretary of State is a senior official in the Federal Government of the United States heading the Department of State. The incumbent is principally concerned with foreign affairs and is considered to be the U.S. equivalent of a foreign minister.</description>
+  <website>http://www.state.gov/secretary/</website>
+  <image href="http://mwong.mynmi.net/4310/project2/images/state.jpeg" />
+  </item>
+   
+   <item>
+  <Name>Neal Wolin</Name>
+  <Position>Treasury</Position>
+  <official_title>Secretary of the Treasury</official_title>
+  <department>Department of the Treasury</department>
+  <years>First term</years>
+  <career>Lawyer, law professor</career>
+  <edu>B.A. Yale, M.S. Oxford, J.D. Yale Law</edu>
+  <description>The Secretary of the Treasury is the head of the US Department of the Treasury, which is concerned with financial and monetary matters, and also with some issues of national security and defense.</description>
+  <website>http://www.treasury.gov/Pages/default.aspx</website>
+         <image href="http://mwong.mynmi.net/4310/project2/images/treasury.jpeg" />
+  </item>
+  
+  <item>
+  <Name>Leon Panetta</Name>
+  <Position>Defense</Position>
+  <official_title>Secretary of Defense</official_title>
+  <department>Department of Defense</department>
+  <years>Second term</years>
+  <career>Director of the CIA, Lawyer, professor, politician, army</career>
+  <edu>B.A. J.D. Santa Clara </edu>
+  <description>The Secretary of Defense is the leader and chief executive officer of the Department of Defense, an Executive Department of the Government of the USA.</description>
+  <website>http://www.defense.gov</website>
+      <image href="http://mwong.mynmi.net/4310/project2/images/defense.jpeg" />
+  </item>
+  
+  <item>
+  <Name>Eric Holder</Name>
+  <Position>Attorney General</Position>
+  <official_title>United States Attorney General</official_title>
+  <department>Department of Justice</department>
+  <years>Second term</years>
+  <career>Judge, lawyer</career>
+  <edu>B.A, J.D. Columbia University</edu>
+  <description>The Attorney General is is the head of the United States Department of Justice and is concerned with legal affairs.  Is also the chief law enforcement officer of the United States government. The attorney general is considered to be the chief lawyer of the U.S. government.</description>
+  <website>http://www.justice.gov</website>
+      <image href="http://mwong.mynmi.net/4310/project2/images/justice.jpeg" />
+  </item>
+  
+  <item>
+  <Name>Ken Salazar</Name>
+  <Position>Interior</Position>
+  <official_title>Secretary of the Interior</official_title>
+  <department>Department of the Interior</department>
+  <years>Second term</years>
+  <career>Lawyer, Attorney General and Senator of Colorado</career>
+  <edu>BA Colorado College, JD University of Michigan</edu>
+      <description>The Secretary of the Interior is the head of the Department of the Interior which oversees such agencies as the Bureau of Land Management, the United States Geological Survey, and the National Park Service. It's main goals are to protect America’s natural resources and heritage, honors it's cultures and tribal communities, and supply the energy to power the future.</description>
+  <website>http://www.doi.gov/index.cfm</website>
+      <image href="http://mwong.mynmi.net/4310/project2/images/interior.jpeg" />
+  </item>
+  
+  <item>
+  <Name>Tom Vilsack</Name>
+  <Position>Agriculture</Position>
+  <official_title>Secretary of Agriculture</official_title>
+  <department>Department of Agriculture</department>
+  <years>Second term</years>
+  <career>Lawyer, Govenor of Iowa</career>
+  <edu>BA Hamilton College, JD Albany Law School</edu>
+      <description>The Secretary of Agriculture is the head of the Department of Agriculture, whose main goal is to expand economic opportunity through innovation, helping rural America to thrive; to promote agriculture production sustainability that better nourishes Americans while also helping feed others throughout the world; and to preserve and conserve our Nation's natural resources through restored forests, improved watersheds, and healthy private working lands.          </description>
+  <website>http://www.usda.gov/wps/portal/usda/usdahome</website>
+      <image href="http://mwong.mynmi.net/4310/project2/images/agri.jpeg" />
+  </item>
+  
+  <item>
+  <Name>Rebecca Blank</Name>
+  <Position>Commerce</Position>
+  <official_title>Secretary of Commerce</official_title>
+  <department>Department of Commerce</department>
+  <years>First term</years>
+  <career>Dean at U Michigan, Professor, Research director</career>
+  <edu>BA University of Minnesota, PHD Economics MIT</edu>
+  <description>The Secretary of Commerce is the head of the U.S. Department of Commerce promotes job creation, economic growth, sustainable development and improved standards of living for all Americans by working in partnership with businesses, universities, communities and our nation’s workers. </description>
+  <website>http://www.commerce.gov</website>
+      <image href="http://mwong.mynmi.net/4310/project2/images/commerce.jpeg" />
+  </item>
+  
+  <item>
+  <Name>Seth Harris</Name>
+  <Position>Labor</Position>
+  <official_title>Secretary of Labor</official_title>
+  <department>Department of Labor</department>
+  <years>First term</years>
+  <career>Professor, Program Director at NY Law School</career>
+  <edu>BS Cornell University, JD NY Law</edu>
+  <description>The Secretary of Labor exercises control over the department and enforces and suggests laws involving unions, the workplace, and all other issues involving any form of business-person controversies. The department is also concerned with occupational safety, wage and hour standards, unemployment insurance benefits, re-employment services, and some economic statistics</description>
+  <website>http://www.dol.gov</website>
+      <image href="http://mwong.mynmi.net/4310/project2/images/labor.jpeg" />
+  </item>
+      
+      <item>
+          <Name>Kathleen Sebelius</Name>
+          <Position>Health and Human Services</Position>
+          <official_title>Secretary of Health and Human Services</official_title>
+          <department>Department of Health and Human Services</department>
+          <years>Second term</years>
+          <career>Lobbyist, Govenor of Kansas</career>
+          <edu>BA Trinity Washington University, MPA U Kansas</edu>
+          <description> This Cabinet department of the United States government has the goal of protecting the health of all Americans and providing essential human services.</description>
+          <website>http://www.hhs.gov</website>
+          <image href="http://mwong.mynmi.net/4310/project2/images/health.jpeg" />
+      </item>
+   
+      <item>
+          <Name>Shaun Donovan</Name>
+          <Position>Housing and Urban Development</Position>
+          <official_title>Secretary of Housing and Urban Development</official_title>
+          <department>Department of Housing and Urban Development</department>
+          <years>Second term</years>
+          <career>Commissioner of NYC Department of Housing Preservation and Development</career>
+          <edu>BA, MPA, MA Harvard</edu>
+          <description>The Secretary of Housing and Urban Development is the head of the Department of Housing and Urban Development. Its mission is "to increase homeownership, support community development and increase access to affordable housing free from discrimination."</description>
+          <website>http://portal.hud.gov/hudportal/HUD</website>
+          <image href="http://mwong.mynmi.net/4310/project2/images/house.jpeg" />
+      </item>
+      
+      <item>
+          <Name>Ray LaHood</Name>
+          <Position>Transportation</Position>
+          <official_title>Secretary of Transportation</official_title>
+          <department>Department of Transportation</department>
+          <years>Second term</years>
+          <career>Social studies teacher, Representative from Illinois</career>
+          <edu>BS Education Bradley University</edu>
+          <description>The Secretary of Transportation is in charge of the Department of Transportation. It's mission is "to develop and coordinate policies that will provide an efficient and economical national transportation system, with due regard for need, the environment, and the national defense."</description>
+          <website>http://www.dot.gov</website>
+          <image href="http://mwong.mynmi.net/4310/project2/images/trans.jpeg" />
+      </item>
+      
+      <item>
+          <Name>Steven Chu</Name>
+          <Position>Energy</Position>
+          <official_title>Secretary of Energy</official_title>
+          <department>Department of Energy</department>
+          <years>Second term</years>
+          <career>Scientist, Professor</career>
+          <edu>BA mathematics BS physics University of Rochester, PHD UC Berkeley</edu>
+          <description>The Secretary of Energy is the head of the Department of Energy who's goal originally focused on energy production and regulation. The emphasis soon shifted to developing technology for better, more efficient energy sources as well as energy education. After the end of the Cold War, the department's attention also turned toward radioactive waste disposal and maintenance of environmental quality.</description>
+          <website>http://www.doe.gov</website>
+		  <image href="http://mwong.mynmi.net/4310/project2/images/energy.jpeg" />
+      </item>
+      
+      <item>
+          <Name>Arne Duncan</Name>
+          <Position>Education</Position>
+          <official_title>Secretary of Education</official_title>
+          <department>Department of Education</department>
+          <years>Second term</years>
+          <career>Professional basketball player, CEO of Chicago Public Schools</career>
+          <edu>BA Harvard</edu>
+          <description>The Department of Education has four main functions: to establish policies related to federal education funding, administer distribution of funds and monitor their use, collect data and oversee research on America's schools, identifies major issues in education and focus national attention on them, and enforce federal laws prohibiting discrimination in programs that receive federal funds.
+</description>
+          <website>http://www.ed.gov</website>
+          <image href="http://mwong.mynmi.net/4310/project2/images/edu.jpeg" />
+      </item>
+      
+      <item>
+          <Name>Eric Shinseki</Name>
+          <Position>Veteran Affairs</Position>
+          <official_title>Secretary of Veteran Affairs</official_title>
+          <department>Department of Veteran Affairs</department>
+          <years>Second term</years>
+          <career>Vietnam war veteran, Army Chief of Staff</career>
+          <edu>BS US Military Academy, MA English Duke</edu>
+          <description>The Secretary of Veterans Affairs is the head of the Department of Veterans Affairs, the department concerned with veterans' benefits and related matters.</description>
+          <website>http://www.va.gov</website>
+          <image href="http://mwong.mynmi.net/4310/project2/images/va.jpeg" />
+      </item>
+      
+      <item>
+          <Name>Janet Napolitano</Name>
+          <Position>Homeland Security</Position>
+          <official_title>Secretary of Homeland Security</official_title>
+          <department>Department of Homeland Security</department>
+          <years>Second term</years>
+          <career>Lawyer, Attorney General and Govenor of Arizona</career>
+          <edu>BA Santa Clara University, JD University of Virginia</edu>
+          <description>The Secretary of Homeland Security is the head of the Department of Homeland Security, the body concerned with protecting the American homeland and the safety of American citizens. </description>
+          <website>http://www.dhs.gov</website>
+      <image href="http://mwong.mynmi.net/4310/project2/images/homeland.jpeg" />
+      </item>
+      
+     
+   </Presidential>

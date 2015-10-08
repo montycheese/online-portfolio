@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@media all and (max-width: 320px) {
+
+
+header {
+	background-image: url(../images/athfestheader_iphoneportrait.png);
+	background-repeat: no-repeat;
+	width: 320px;
+	height: 67px;
+}
+
+#img1 {
+	background-image: url(../images/images_small/athfest1_290.jpg);
+	background-repeat: no-repeat;
+	width: 290px;
+	height: 193px;
+}
+
+#img2 {
+	background-image: url(../images/images_small/athfest2_290.jpg);
+	background-repeat: no-repeat;
+	width: 290px;
+	height: 193px;
+}
+
+#img3 {
+	background-image: url(../images/images_small/athfest3_290.jpg);
+	background-repeat: no-repeat;
+	width: 290px;
+	height: 193px;
+}
+
+}
+
+@media all and (min-width: 321px) and (max-width: 480px){
+	
+	
+header {
+	background-image: url(../images/Athfestheader_iphonelandscape.png);
+	background-repeat: no-repeat;
+	width: 480px;
+	height: 166px;
+}	
+
+#img1 {
+	background-image: url(../images/images_small/athfest1_450.jpg);
+	background-repeat: no-repeat;
+	width: 450px;
+	height: 300px;
+}
+
+#img2 {
+	background-image: url(../images/images_small/athfest2_450.jpg);
+	background-repeat: no-repeat;
+	width: 450px;
+	height: 300px;
+}
+
+#img3 {
+	background-image: url(../images/images_small/athfest3_450.jpg);
+	background-repeat: no-repeat;
+	width: 450px;
+	height: 300px;
+}
+	
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+
+header {
+	background-image: url(../images/athfestheader_ipadportrait.png);
+	background-repeat: no-repeat;
+	width:768px;
+	height: 265px;
+	
+}
+
+#img1 {
+	background-image: url(../images/images_large/athfest1_738.jpg);
+	background-repeat: no-repeat;
+	width: 738px;
+	height: 492px;
+}
+
+#img2 {
+	background-image: url(../images/images_large/athfest2_738.jpg);
+	background-repeat: no-repeat;
+	width: 738px;
+	height: 492px;
+}
+
+#img3 {
+	background-image: url(../images/images_large/athfest3_739.jpg);
+	background-repeat: no-repeat;
+	width: 738px;
+	height: 493px;
+}
+	
+}
+
+@media all and (min-width: 769px) {
+
+header {
+	background-image: url(../images/athfestheader_ipadlandscape.png);
+	background-repeat: no-repeat;
+	width:1024px;
+	height: 353px;
+	
+}
+	
+#img1 {
+	background-image: url(../images/images_large/athfest1_1024.jpg);
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 683px;
+}
+
+#img2 {
+	background-image: url(../images/images_large/athfest2_1024.jpg);
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 683px;
+}
+
+#img3 {
+	background-image: url(../images/images_large/athfest3_1024.jpg);
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 683px;
+}	
+}

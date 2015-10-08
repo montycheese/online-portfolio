@@ -1,0 +1,360 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Athfest2013</title>
+<link href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <link rel="apple-touch-icon-precomposed" href="icon.png"/>
+    <!--creates homescreen icon image-->
+<link rel="apple-touch-startup-image" href="screenshotfinal.png">
+<!--specify a launch image 320x 460 png-->
+    <meta name="apple-mobile-web-app-capable" content="YES">
+<!--add to home screen popup-->
+<script type="text/javascript">
+
+var addToHomeConfig = {
+	touchIcon: true,
+};
+
+</script>
+
+	<link rel="stylesheet" href="style/add2home.css">
+	<link href="css/MyQ.css" rel="stylesheet" type="text/css">
+	<script type="application/javascript" src="src/add2home.js" charset="utf-8"></script>
+    <!--end add to home screen popup-->
+    
+</head> 
+<body> 
+
+<div data-role="page" id="about">
+	<div data-role="header">
+		<header></header>
+	</div>
+ 
+	<div data-role="content">	
+    The Athens Music and Arts Festival is a highly acclaimed event held annually in historic downtown Athens, GA, a town long renowned for its thriving music scene. For the past 15 years, AthFest has used the festival to showcase the best in regionally and nationally recognized Athens-based talent. Besides the musical offerings there is also a free Artists Market that has around 50 local and regional sculptors, painters, weavers, and other visual artists.
+    
+    
+    <center>
+    <iframe src="http://free.timeanddate.com/countdown/i3kltajb/n2133/cf12/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/tatTime%20left%20until%20/tac000/tptTime%20since%20/tpc000/matAthfest%202013/mac000/mptAthfest%202013/mpc000/iso2013-06-23T00:00:00" frameborder="0" width="123" height="68"></iframe></center>
+
+
+	</div>
+	
+    <div data-role="footer" data-position="fixed">		
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#about" class="ui-btn-active ui-state-persist">About</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#bands">Schedule</a></li>
+        <li><a href="#film">Film Fest</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+    </ul>
+</div><!-- /navbar --></div></div>
+
+<div data-role="page" id="map">
+	<div data-role="header"> <header></header>
+		<h1>Map</h1>
+	</div>
+	<div data-role="content"><img src="images/map.jpg" width="100%"> </div>
+	<div data-role="footer" data-position="fixed">		
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#map" class="ui-btn-active ui-state-persist">Map</a></li>
+        <li><a href="#bands">Schedule</a></li>
+        <li><a href="#film">Film Fest</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+    </ul>
+</div><!-- /navbar <--></div></div>
+
+
+<!--<div data-role="page" id="about" data-add-back-btn="true">
+	<div data-role="header"> 
+		<h1>About Athfest</h1>
+	</div>
+	<div data-role="content">	
+		The Athens Music and Arts Festival is a highly acclaimed event held annually in historic downtown Athens, GA, a town long renowned for its thriving music scene. For the past 15 years, AthFest has used the festival to showcase the best in regionally and nationally recognized Athens-based talent. Besides the musical offerings there is also a free Artists Market that has around 50 local and regional sculptors, painters, weavers, and other visual artists. There is also a kid and family friendly area called KidsFest that has free hands-on arts activities for children and free performances by local adult musicians playing specifically for kids.
+
+
+	</div>
+	<div data-role="navbar" data-grid="d" data-id="fool" data-position="fixed">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#bands">Schedule</a></li>
+        <li><a href="#film">Film Fest</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+    </ul>
+</div><!-- /navbar -->
+</div>
+
+<div data-role="page" id="bands">
+	<header></header><div data-role="header">
+		<h1>Bands</h1>
+	</div>
+	<div data-role="content">	
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="d">
+    <div data-role="collapsible">
+        <h3>Friday</h3>
+        <p><table data-role="table" id="table-column-toggle" data-mode="columntoggle" class="ui-responsive table-stroke">
+     <thead>
+       <tr>
+         <th>Time</th>
+         <th>Band</th>
+         <th>Location</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th>5-:45</th>
+         <td><a href="http://www.facebook.com/pages/Darnell-Boys/315957508445338" target="_blank" data-rel="external">The Darnell Boys</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+        <tr>
+         <th>5:45-6:15</th>
+         <td><a href="http://efrenmusic.com/">Efren</a></td>
+         <td>Hull St.</td>
+       </tr>
+       
+        <tr>
+         <th>6:15-7pm</th>
+         <td><a href="http://thecorduroyroad.tumblr.com/">The Corduroy Road</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+       
+        <tr>
+         <th>7-7:30</th>
+         <td><a href="http://newmadridmusic.bandcamp.com/">New Madrid</a></td>
+         <td>Hull St.</td>
+       </tr>
+       
+        <tr>
+         <th>7:30-8:30</th>
+         <td><a href="http://deerhuntertheband.blogspot.com/">Atlas Sound</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+       
+       <tr>
+         <th>8:30-9pm</th>
+         <td><a href="http://yipdeceiver.com/">Yip Deciever</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+       
+       <tr>
+         <th>9-10pm</th>
+         <td><a href="http://www.reptarmusic.com/">Reptar</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+     </tbody>
+   </table></p>
+    </div>
+    <div data-role="collapsible">
+        <h3>Saturday</h3>
+        <p><p><table data-role="table" id="table-column-toggle" data-mode="columntoggle" class="ui-responsive table-stroke">
+     <thead>
+       <tr>
+         <th>Time</th>
+         <th>Band</th>
+         <th>Location</th>
+       </tr>
+     </thead>
+     <tbody>
+     <tr>
+         <th>12-1pm</th>
+         <td><a href="http://www.reptarmusic.com/">Laughing Pizza</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+       <tr>
+         <th>1-1:30pm</th>
+         <td><a href="http://www.reptarmusic.com/">Monsignor Donovan Ram</a></td>
+         <td>Hull St.</td>
+       </tr>
+       <tr>
+         <th>1:30-2:15</th>
+         <td><a href="http://www.reptarmusic.com/">Emily Hearn</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+       <tr>
+         <th>2:15-2:45</th>
+         <td><a href="http://www.reptarmusic.com/">The Breaks</a></td>
+         <td>Hull St.</td>
+       </tr>
+       <tr>
+         <th>2:45-3:30</th>
+         <td><a href="http://www.reptarmusic.com/">Darius Weems</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+       <tr>
+         <th>3:30-4pm</th>
+         <td><a href="http://www.reptarmusic.com/">Free Tomorrow</a></td>
+         <td>Hull St.</td>
+       </tr>
+       <tr>
+         <th>4-4:45</th>
+         <td><a href="http://www.reptarmusic.com/">Packway Handle Band</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+       <tr>
+         <th>4:45-5:15</th>
+         <td><a href="http://www.reptarmusic.com/">Josh Perkins Experience</a></td>
+         <td>Hull St.</td>
+       </tr>
+       <tr>
+         <th>5:15-6pm</th>
+         <td><a href="http://www.reptarmusic.com/">Radiolucent</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+       <tr>
+         <th>6-6:30</th>
+         <td><a href="http://www.reptarmusic.com/">Seven Handle Circus</a></td>
+         <td>Hull St.</td>
+       </tr>
+       <tr>
+         <th>6:30-7:15pm</th>
+         <td><a href="http://www.reptarmusic.com/">Ruby Kendrick</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+       <tr>
+         <th>7:15-7:45</th>
+         <td><a href="http://www.reptarmusic.com/">The District Attorneys</a></td>
+         <td>Hull St.</td>
+       </tr>
+       <tr>
+         <th>7:45-8:30</th>
+         <td><a href="http://www.reptarmusic.com/">Elf Power</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+       <tr>
+         <th>8:30-9pm</th>
+         <td><a href="http://www.reptarmusic.com/">Five Eight</a></td>
+         <td>Hull St.</td>
+       </tr>
+       <tr>
+         <th>9-10pm</th>
+         <td><a href="http://www.reptarmusic.com/">The Glands</a></td>
+         <td>Pulaski St.</td>
+       </tr>
+       <tr>
+         <th>10pm-?</th>
+         <td><a href="http://www.reptarmusic.com/">DJ Zdog</a></td>
+         <td>Beer Tent Party!</td>
+       </tr>
+       
+       
+     </tbody>
+   </table>
+     </p>
+    </div>
+    <div data-role="collapsible">
+        <h3>Sunday</h3>
+        <p>TBA</p>
+    </div>
+</div>
+<div data-role="footer" data-position="fixed">		
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#bands"class="ui-btn-active ui-state-persist">Schedule</a></li>
+        <li><a href="#film">Film Fest</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+    </ul></div></div>
+</div><!-- /navbar --></div>
+		 
+	</div>
+	
+</div>
+
+<div data-role="page" id="film">
+	<div data-role="header"> <header></header>
+		<h1>Film Fest</h1>
+	</div>
+	<div data-role="content">	
+		<iframe style="width:100%; height:470px" src="filmdone/index.html"></iframe>	
+	</div>
+	<div data-role="footer" data-position="fixed">		
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#bands">Schedule</a></li>
+        <li><a href="#film" class="ui-btn-active ui-state-persist">Film Fest</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+    </ul>
+</div><!-- /navbar --></div></div>
+</div><
+
+<div data-role="page" id="gallery" data-add-back-btn="true">
+	<div data-role="header"> <header></header>
+	</div>
+	<div data-role="content">	
+    <a href="#image1"><img src="images/t_4.jpg" alt="t_1" width="100" height="75"></a>
+        
+     <a href="#image2"><img src="images/t_2.jpg" alt="t_2" width="100" height="75"></a>
+        
+        <a href="#image3"><img src="images/t_1.jpg" alt="t_3" width="100" height="75"></a>
+	  
+    
+     </div></div>
+    
+</div>
+	<div data-role="footer" data-position="fixed">		
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#bands">Schedule</a></li>
+        <li><a href="#film">Film Fest</a></li>
+        <li><a href="#gallery" class="ui-btn-active ui-state-persist">Gallery</a></li>
+    </ul>
+</div><!-- /navbar --></div>
+</div>
+
+
+</div>
+
+<div data-role="page" id="image1" data-add-back-btn="true">
+
+	<div data-role="header"><header></header>
+	</div><!-- /header -->
+
+	<div data-role="content">
+    <div id="img1"></div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Athens Music & Arts Fest</h4>
+	</div><!-- /footer -->
+</div></div>
+<div data-role="page" id="image2" data-add-back-btn="true">
+
+	<div data-role="header"><header></header>
+	</div><!-- /header -->
+
+	<div data-role="content">
+    <div id="img2"> </div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Athens Music & Arts Fest</h4>
+	</div><!-- /footer -->
+</div></div>
+<div data-role="page" id="image3" data-add-back-btn="true">
+
+	<div data-role="header"><header></header>
+	</div><!-- /header -->
+
+	<div data-role="content">
+    <div id="img3"> </div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Athens Music & Arts Fest</h4>
+	</div><!-- /footer -->
+</div></div>
+
+
+</div>
+</body>
+</html>
