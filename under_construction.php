@@ -1,4 +1,7 @@
-<?php include("includes/header.php");?>
+<?php include("includes/header.php");
+header("Location: index.php");
+exit();
+?>
 
 <!-- One -->
 <section id="one" class="wrapper special">
