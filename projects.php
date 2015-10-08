@@ -36,7 +36,7 @@
                     <dt>Technologies Used</dt>
                     <dd>
                         <p><strong>Front-end</strong>: HTML, CSS. JavaScript, CoffeeScript, and jQuery were used for dynamic page functionality. Bootstrap framework was implemented for page responsiveness</p>
-                        <p><strong>Back-end</strong>: PHP, MySQL database, and the application was hosted on an Apache AWS server. </p>
+                        <p><strong>Back-end</strong>: PHP, MySQL database, and the application was hosted on an AWS server. </p>
                         <p><strong>Considerations</strong>: Password hashing was used to store passwords in database, and authentication
                             check was implemented on every page via PHP session variables. UX was designed for simplicity of use, images were sized for web on Adobe Photoshop.</p>
                     </dd>
@@ -93,7 +93,7 @@
                     <dd>
                         <p><strong>Front-end</strong>: HTML, CSS. JavaScript and jQuery were used for dynamic page functionality. Bootstrap framework was implemented for page responsiveness.
                         </p>
-                        <p><strong>Back-end</strong>: PHP, Ajax, MySQL database, and the application was hosted on an Apache AWS server. </p>
+                        <p><strong>Back-end</strong>: PHP, Ajax, MySQL database, and the application was hosted on an AWS server. </p>
                         <p><strong>APIs</strong>: Google APIs - Maps, Charts, Analytics, Stripe (for payment), Mandrill and Pilvo (for email and SMS respectively)</p>
                         <p><strong>Considerations</strong>: Password hashing was used to store passwords in database, and authentication
                             check was implemented on every page via PHP session variables. UX was designed for drivers on the move using mobile, and wide desktop
