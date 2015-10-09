@@ -86,6 +86,7 @@ html, body, #map-canvas {
                 [37.083389, -88.600048, 'Paducah, KY, USA'],
                 [38.627003, -90.199404, 'St. Louis, MI, USA'],
                 [32.473315, -93.802234, 'Shreveport, LS, USA'],
+                [39.9833, -82.9833, 'Columbus, OH, USA'],
                 //Africa
                 [30.044420, 31.235712, 'Cairo, Egypt'],
                 [25.687243, 32.639636, 'Luxor, Egypt'],
@@ -102,7 +103,6 @@ html, body, #map-canvas {
                 [22.483182, 113.916509, 'Shekou, Shenzen, China'],
                 [39.904211, 116.407395, 'Beijing, China'],
                 [31.230416, 121.473701, 'Shanghai, China'],
-                [39.916345, 39.916345, 'Forbidden City, China'],
                 [37.485760, 103.456128, 'Great Wall of China']
             ];
 

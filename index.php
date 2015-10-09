@@ -35,7 +35,9 @@
         <header class="major">
             <h2>About Me</h2>
         </header>
-        <p>My name is Montana Wong and I'm a Senior at the University of Georgia. I'm specializing in developing Software, Databases,
+        <span  style="text-align: center;max-width:100%;"><img id="fullsize" src="images/antarctica.jpg" style="width:542px;" alt="Me" ></span>
+        <br/><br/>
+        <p>My name is Montana Wong and I'm a Senior at the University of Georgia. I specializing in developing Software, Databases,
             and Web front-end & back-end for a variety of applications.
             I'm also a moonlight amateur filmmaker.<br/><br/>
             If you want to collaborate on something cool, start the next Facebook,<br/>
@@ -110,6 +112,11 @@
 
 <!-- Footer includes javascript imports-->
 <?php include("includes/footer.php");?>
-
+<script>
+    window.onresize = function(){
+        var img = document.getElementById('fullsize');
+        img.style.width = "100%";
+    };
+</script>
 </body>
 </html>

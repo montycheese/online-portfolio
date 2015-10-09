@@ -1,19 +1,12 @@
 <?php include("includes/header.php");?>
 
-<!-- One -->
-<section id="one" class="wrapper special">
-    <div class="inner">
-        <header class="major">
-            <h2>Software Projects</h2>
-            <p>And et cetera</p>
-        </header>
-    </div>
-</section>
-
-<!-- Two-->
+<!-- One-->
 
 <section id="three" class="wrapper">
     <div class="inner">
+        <header class="major" style="display:block;text-align: center;">
+            <h2>Software Projects</h2>
+        </header>
         <div class="row 200%">
             <div class="6u 12u$(medium)">
                 <!-- project 1 -->
@@ -21,13 +14,14 @@
                 <dl>
                     <dt>Summary</dt>
                     <dd>
-                        <p>Pocket Pal was created in the span of 24 hours during
+                        <p>
+                            Pocket Pal was created in the span of 24 hours during
                             JP Morgan Chase's annual Code for Good challenge in
-                            Columbus Ohio. Our team and 19 others were tasked with
+                            Columbus Ohio. Our team along 19 others were tasked with
                             the challenge of creating an application that would allow
                             volunteers and members of the Lebron James Family Foundation
-                            to track the progress of young teenagers that they sponsor.
-                            Other tasks included, making it accessible, portable, and
+                            to track the progress of underprivileged young teenagers that they sponsor.
+                            Requirements included: making it accessible, portable, simple, attractive, and
                             emphasizing the teenager's relationship with their mentor
                             <a href="http://www.lebronjames.com/">Lebron James.</a>
                             The technology platform we were assigned was the Samsung Galaxy Tablet.
@@ -35,15 +29,23 @@
                     </dd>
                     <dt>Technologies Used</dt>
                     <dd>
-                        <p><strong>Front-end</strong>: HTML, CSS. JavaScript, CoffeeScript, and jQuery were used for dynamic page functionality. Bootstrap framework was implemented for page responsiveness</p>
+                        <p><strong>Front-end</strong>: HTML/CSS to create the general UI.
+                            JavaScript, CoffeeScript, and jQuery were used for dynamic page functionality. The
+                            <a href="http://getbootstrap.com/">Bootstrap</a> framework was implemented for page responsiveness</p>
                         <p><strong>Back-end</strong>: PHP, MySQL database, and the application was hosted on an AWS server. </p>
-                        <p><strong>Considerations</strong>: Password hashing was used to store passwords in database, and authentication
-                            check was implemented on every page via PHP session variables. UX was designed for simplicity of use, images were sized for web on Adobe Photoshop.</p>
+                        <p><strong>Considerations</strong>: PHP include statements were used to lay a foundation for application scalability.
+                            Password hashing was used to store passwords in database.
+                            Schema included 5~6 tables, specific to different relationships our team found necessary.
+                            The UX was designed for simplicity of use, and all images were sized for web on Adobe Photoshop.</p>
                     </dd>
                     <dt>Challenges</dt>
                     <dd>
-                        <p>Our team had a restricted deadline (24 hours) to brainstorm, plan, build a prototype, test, and rollout our final product.
-                            Needless to say, we didn't sleep that night!
+                        <p>
+                            Our team had a restricted deadline (24 hours) to brainstorm, plan, build a prototype, test, and roll-out our final product.
+                            Needless to say, we didn't sleep that night! In order to work efficiently, we had 3/4 of our group developing different
+                            parts of the application in parallel, while the 4th member tested and debugged different parts of the application that
+                            they did not develop specifically. After roughly an hour interval, we would all fix the known bugs and a new person would assume the
+                            role of tester and the cycle continued.
                         </p>
                     </dd>
                 </dl>
@@ -62,15 +64,16 @@
                     </dd>
                     <dt>Technologies Used</dt>
                     <dd>
-                        <p>The game was created using the JavaFX GUI framework. Everything was written in Java 7</p>
+                        <p>The game was created using the JavaFX GUI framework. All game logic was written in Java 7.</p>
                         <p><strong>Considerations</strong>: Specific data structures were implemented to optimize game performance. For example,
-                            the alien horde were stored in an array of Arraylists. The listeners could be easily updated this way and aliens could be
-                            removed easily from the game when destroyed, while preserving the ordering of their neighbors.
+                            the alien horde were stored in an array of ArrayLists. The listeners could be easily updated this way and aliens could be
+                            removed easily from the frame when destroyed, while preserving the ordering of their adjacent friends.
                         </p>
                     </dd>
                     <dt>Challenges</dt>
                     <dd>
-                        <p>I was making the transition from Java Swing to JavaFX. They both handle MVC differently in some ways, and it was fascinating to evaluate the
+                        <p>I was making the transition from Java Swing to JavaFX while writing this game.
+                            They both handle MVC differently in some ways, and it was fascinating to evaluate the
                             tradeoffs between the two frameworks.
                         </p>
                     </dd>
@@ -149,10 +152,13 @@
                 <div class="6u$ 12u$(medium)">
                     <!-- project -->
                     <span class="image fit"><img src="images/projects/pocket_pal.png" alt="Pocket Pal!" /></span>
+                    <br/>
                     <span class="image fit"><img src="images/projects/pocket_pal2.png" alt="Pocket Pal!" /></span>
+                    <br/>
                     <h4>PHP Code Sample:</h4>
                     <pre style="padding:0px;">
                         <code>
+
 function getStudentInfo($student_id){
     $dsn = 'mysql:host=' . DB_HOST . ';dbname=' . DB_NAME;
     try {
@@ -165,13 +171,17 @@ function getStudentInfo($student_id){
     $stmt = $pdo->prepare($query);
     $stmt->bindParam(1, $student_id, PDO::PARAM_STR);
     if($stmt->execute()){
-    //select success
-    $row = $stmt->fetch(PDO::FETCH_ASSOC);
-    return $row;
+        //select success
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+        return $row;
     }
-    else return NULL;
-}</code>
+    else {
+        return NULL;
+    }
+}
+                        </code>
                     </pre>
+                    <br/><br/>
                     <hr/>
                     <!-- Project 2 -->
                     <span class="image fit"><img src="images/projects/Karma_Invaders.gif" alt="Karma Invaders" /></span>
@@ -235,9 +245,8 @@ function refreshLocation(){
     });
     }
 }//refreshLocation
-</code>
+</code>  </pre>
                       <hr/>
-                      </pre>
                       <h3>Dawg Radio</h3>
                        <iframe name = "iframe" width="320" height="480" frameborder="3"
                                scrolling="yes" marginheight="0" marginwidth="0"
@@ -245,7 +254,7 @@ function refreshLocation(){
                                /*style="-webkit-transform:scale(0.7);-moz-transform-scale(0.7);*/">
                        </iframe>
 
-                    <h3>Athfest</h3>
+                    <h3>Athfest Mobile Guide</h3>
                     <iframe name = "iframe" width="320" height="480" frameborder="2"
                             scrolling="yes" marginheight="0" marginwidth="0"
                             src="extras/mobile_projects/project3/index.html"

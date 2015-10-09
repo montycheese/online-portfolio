@@ -14,7 +14,7 @@
             </iframe>
         </div>
     </div>
-    <p>Last Destination <a href="https://en.wikipedia.org/wiki/Austin,_Texas">Austin, TX</a></p>
+    <p>Last Destination <a href="https://en.wikipedia.org/wiki/Columbus,_Ohio">Columbus, OH</a></p>
 
     <!--
     <br />
