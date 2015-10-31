@@ -9,6 +9,47 @@
         </header>
         <div class="row 200%">
             <div class="6u 12u$(medium)">
+                <!-- project 0 -->
+                <h2>Digits</h2>
+                <dl>
+                    <dt>Summary</dt>
+                    <dd>
+                        <p>
+                           <a href="http://montycheese.cloudapp.net">Digits</a> was created and developed over a weekend during The University of Georgia's Hackathon <a href="http://ugahacks.herokuapp.com/">UGA Hacks</a>.
+                            Our vision for the product was to essentially recognize, analyze, and interpret American Sign Language (ASL) into words from photos and videos.
+                           The software implements <a href="http://www.clarifai.com">Clarifai's</a> API, which allows developers to use images to train different classification models using
+                            a neural network. I created the idea and worked with a team of five to develop a prototype to showcase at the end of the weekend.
+                            My contributions to the team were developing the python scripts to train our classification models, writing the back-end for the web application,
+                            setting up and configuring the Azure server, and leading our presentation at the end. Our team ended up being a top 8 finalist in the competition!
+                        </p>
+                    </dd>
+                    <dt>Technologies Used</dt>
+                    <dd>
+                        <strong>Machine Learning</strong><br/>
+                        <p>Python was used to write the classification software. A ten fold cross validation was
+                        used with Clarifai's neural network to train models that would recognize different words and characters from the
+                        ASL.<br/>
+                        Hash tables (dictionaries in Python) were used to store model: image pairs as this allowed us to easily organize our data.
+                        </p>
+
+                        <strong>Web Application</strong>
+                        <p><i>Front-end</i>: HTML/CSS to create the general UI.
+                            JavaScript, and jQuery were used for dynamic page functionality.</p>
+                        <p><i>Back-end</i>: PHP, LAMP stack, Azure server </p>
+                        <p><strong>Considerations</strong>: In order to translate ASL from videos, an uploaded video had to be sliced up into individual photo frames.
+                            Additionally these photos were parsed into Base64 then uploaded onto the server to be classified as one of our models. This was
+                            achieved by using Ajax calls to the API. This process was used to enable users to get data without any page redirection. </p>
+                    </dd>
+                    <dt>Challenges</dt>
+                    <dd>
+                        <p>
+                           Classification of certain letters in the ASL alphabet proved to be quite challenging as they were very similar to one another.
+                            (M,N,S,T,A,E) Getting our model to correctly predict these required large amounts of data collecting and testing different image types.
+                            We ended up taking most of the photos on our own, resulting in teaching a fair amount of people the ASL alphabet at the Hackathon.
+                        </p>
+                    </dd>
+                </dl>
+                <!-- end project 0 -->
                 <!-- project 1 -->
                 <h2>Pocket Pal</h2>
                 <dl>
@@ -150,6 +191,45 @@
                 </div>
 
                 <div class="6u$ 12u$(medium)">
+                    <!-- project 0 -->
+                    <span class="image fit"><img src="images/projects/digits_1.png" alt="Digits" /></span>
+                    <br/>
+                    <span class="image fit"><img src="images/projects/digits_3.png" alt="Digits!" /></span>
+                    <br/>
+                    <span class="image fit"><img src="images/projects/digits_2.png" alt="Digits!" /></span>
+                    <br/>
+                    <h4>Python Code Sample:</h4>
+                    <pre style="padding:0px;">
+                        <code style="font-size: 0.8em;">#train.py
+from clarifai_basic import ClarifaiCustomModel
+from json import dumps
+from classifications import language
+
+concept = ClarifaiCustomModel()
+
+count = 0
+#train all models on all words in our language
+
+for model in language.keys():
+    print "current model to train: %s, %d/%d complete" % (model, count, len(language))
+    for url in language[model]:
+        print "training url:%s on model %s" % (url, model)
+        concept.positive(url, model)
+
+    #associate images of other words/letters as NOT our current model
+    for key, value in language.iteritems():
+        if key != model:
+            for neg_url in value:
+                print neg_url
+                concept.negative(neg_url, model)
+    concept.train(model)
+    count += 1
+                        </code>
+                    </pre>
+                    <br/>
+                    <hr/>
+
+                    <!-- project 0 end -->
                     <!-- project -->
                     <span class="image fit"><img src="images/projects/pocket_pal.png" alt="Pocket Pal!" /></span>
                     <br/>
@@ -206,7 +286,7 @@ public void update(Game game, GameTime gameTime){
     }
 }
 </code>
-                    </pre>
+                    </pre><br/><br/>
                     <hr />
                     <span class="image fit"><img src="images/projects/tote_dash_1.png" alt="Tote Dashboard" /></span>
                     <span class="image fit"><img src="images/projects/tote_dash_2.png" alt="Tote Dashboard" /></span>
