@@ -15,7 +15,7 @@
                     <dt>Summary</dt>
                     <dd>
                         <p>
-                           <a href="http://montycheese.cloudapp.net">Digits</a> was created and developed over a weekend during The University of Georgia's Hackathon <a href="http://ugahacks.herokuapp.com/">UGA Hacks</a>.
+                           Digits was created and developed over a weekend during The University of Georgia's Hackathon <a href="http://ugahacks.herokuapp.com/">UGA Hacks</a>.
                             Our vision for the product was to essentially recognize, analyze, and interpret American Sign Language (ASL) into words from photos and videos.
                            The software implements <a href="http://www.clarifai.com">Clarifai's</a> API, which allows developers to use images to train different classification models using
                             a neural network. I created the idea and worked with a team of five to develop a prototype to showcase at the end of the weekend.
@@ -26,7 +26,7 @@
                     <dt>Technologies Used</dt>
                     <dd>
                         <strong>Machine Learning</strong><br/>
-                        <p>Python was used to write the classification software. A ten fold cross validation was
+                        <p>Python was used to write the classification scripts. A ten fold cross validation was
                         used with Clarifai's neural network to train models that would recognize different words and characters from the
                         ASL.<br/>
                         Hash tables (dictionaries in Python) were used to store model: image pairs as this allowed us to easily organize our data.
@@ -35,7 +35,7 @@
                         <strong>Web Application</strong>
                         <p><i>Front-end</i>: HTML/CSS to create the general UI.
                             JavaScript, and jQuery were used for dynamic page functionality.</p>
-                        <p><i>Back-end</i>: PHP, LAMP stack, Azure server </p>
+                        <p><i>Back-end</i>: LAMP stack hosted on a Microsoft Azure web server </p>
                         <p><strong>Considerations</strong>: In order to translate ASL from videos, an uploaded video had to be sliced up into individual photo frames.
                             Additionally these photos were parsed into Base64 then uploaded onto the server to be classified as one of our models. This was
                             achieved by using Ajax calls to the API. This process was used to enable users to get data without any page redirection. </p>
@@ -45,7 +45,7 @@
                         <p>
                            Classification of certain letters in the ASL alphabet proved to be quite challenging as they were very similar to one another.
                             (M,N,S,T,A,E) Getting our model to correctly predict these required large amounts of data collecting and testing different image types.
-                            We ended up taking most of the photos on our own, resulting in teaching a fair amount of people the ASL alphabet at the Hackathon.
+                        <br/>
                         </p>
                     </dd>
                 </dl>
