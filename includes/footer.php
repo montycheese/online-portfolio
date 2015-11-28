@@ -1,6 +1,6 @@
 <footer id="footer">
     <div class="copyright">
-        &#169; 2015 Montana Wong
+        &#169; 2015 Montana Wong <br/> Hosted on <br/> <a href="https://www.raspberrypi.org/"><img src="images/raspberry-pi-logo.png" height="50"/></a>
     </div>
 </footer>
 
