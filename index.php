@@ -40,8 +40,8 @@
         <p>My name is Montana Wong and I'm a Senior at the University of Georgia. I specializing in developing Software, Databases,
             and Web front-end & back-end for a variety of applications.
             I'm also a moonlight amateur filmmaker.<br/><br/>
-            If you want to collaborate on something cool, start the next Facebook,<br/>
-            talk about a job/project, or just chat,
+            If you want to collaborate on something cool,
+            talk about a project, or just chat,
             I want to hear from you!
 
         </p>
