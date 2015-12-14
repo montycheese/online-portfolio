@@ -38,7 +38,8 @@
         <span  style="text-align: center;max-width:100%;"><img id="fullsize" src="images/antarctica.jpg" style="width:542px;" alt="Me" ></span>
         <br/><br/>
         <p>My name is Montana Wong and I'm a Senior at the University of Georgia. I specializing in developing Software, Databases,
-            and Web front-end & back-end for a variety of applications.
+            and Web front-end & back-end for a variety of applications.<br/> Beginning August 2016, I will be working as
+            a Software Engineer at Amazon.<br/>
             I'm also a moonlight amateur filmmaker.<br/><br/>
             If you want to collaborate on something cool,
             talk about a project, or just chat,
