@@ -50,10 +50,10 @@ I'm also a moonlight amateur filmmaker.<br/><br/>
         </p>
         <div class="features">
             <div class="feature">
-                <a href="projects.php">
-                    <i class="fa fa-diamond"></i>
-                    <h3>Software Projets</h3>
-                    <p>A handful of projects from a variety of applications</p>
+                <a href="now.php">
+                    <i class="fa fa-newspaper-o"></i>
+                    <h3>Now</h3>
+                    <p>What I'm up to</p>
                 </a>
             </div>
             <div class="feature">
@@ -71,20 +71,28 @@ I'm also a moonlight amateur filmmaker.<br/><br/>
                 </a>
             </div>
             <div class="feature">
+                <a href="projects.php">
+                    <i class="fa fa-diamond"></i>
+                    <h3>Software Projets</h3>
+                    <p>A handful of projects from a variety of applications</p>
+                </a>
+            </div>
+            <div class="feature">
                 <a href="https://github.com/montycheese">
                 <i class="fa fa-save"></i>
                 <h3>GitHub</h3>
                 <p>Fork, Commit, Push, Pull.</p>
             </div>
-            <div class="feature">
-                <a href="https://www.linkedin.com/in/montanawong">
-                    <i class="fa fa-envelope-o"></i>
-                    <h3>LinkedIn</h3>
-                    <p>Let's connect!</p>
-                </a>
-            </div>
         </div>
     </div>
+
+    <h4>Let's Connect</h4>
+    <ul class="icons">
+        <li><a href="https://linkedin.com/in/montanawong" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://www.youtube.com/channel/UCzw80XM3N_ttgKiMrkhMosg" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+        <li><a href="https://vimeo.com/montanawong" class="icon fa-vimeo-square"><span class="label">Vimeo</span></a></li>
+        <li><a href="https://www.flickr.com/photos/98462021@N07/albums/" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
+    </ul>
 </section>
 
 <!-- Two -->
