@@ -223,6 +223,7 @@ for model in language.keys():
     count += 1
                         </code>
                     </pre>
+		    <br/>
                     <hr/>
                     <!-- project 0 end -->
                     <!-- project -->
@@ -254,6 +255,7 @@ function getStudentInfo($student_id){
 }
                         </code>
                     </pre>
+		    <br/><br/><br/><br/><br/>
                     <hr/>
                     <!-- Project 2 -->
                     <span class="image fit"><img src="images/projects/Karma_Invaders.gif" alt="Karma Invaders" /></span>
@@ -279,6 +281,7 @@ public void update(Game game, GameTime gameTime){
 }
 </code>
                     </pre>
+		    <br/></br>
                     <hr />
                     <span class="image fit"><img src="images/projects/tote_dash_1.png" alt="Tote Dashboard" /></span>
                     <span class="image fit"><img src="images/projects/tote_dash_2.png" alt="Tote Dashboard" /></span>
