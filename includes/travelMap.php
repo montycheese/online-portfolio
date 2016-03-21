@@ -92,6 +92,10 @@ html, body, #map-canvas {
                 [32.473315, -93.802234, 'Shreveport, LS, USA'],
                 [39.9833, -82.9833, 'Columbus, OH, USA'],
                 [47.6097, -122.3331, 'Seattle, WA, USA'],
+	[23.1333, -82.3833, 'Havana, Cuba'],
+	[23.1394, -81.2861, 'Varadero, Cuba'],
+	[43.7000, -79.4000, 'Toronto, Ontario, Canada'],
+	[42.3314, -83.0458, 'Detriot, MI, USA'],
                 //Africa
                 [30.044420, 31.235712, 'Cairo, Egypt'],
                 [25.687243, 32.639636, 'Luxor, Egypt'],
