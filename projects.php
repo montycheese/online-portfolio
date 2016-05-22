@@ -9,13 +9,49 @@
         </header>
         <div class="row 200%">
             <div class="6u 12u$(medium)">
+                <!-- project -1 -->
+                <h2>Ask Macy's</h2>
+                <dl>
+                    <dt>Summary</dt>
+                    <dd>
+                        <p>
+                            <a href="http://devpost.com/software/ask-macy-s">Ask Macy's</a> is a Google Chrome Extension was created and developed in 8 hours during Emory University's Hackathon <a href="http://hackemory.com">hackEmory()</a> 2016.
+                            One of the sponsor's Macy's (clothing retail chain) stated that they only had a 4% conversion rate from a user entering their website to an actual sale.
+                            They challenged all participants at the hackathon to build a service/platform that could alleviate this issue.<br/>
+                            Our team of 2 realized that a reason for this may be that visitors who access the site may not actually come looking for a specific object,
+                            and rather are "window shopping". We had the idea of giving the user suggestions of retail items on Macy's while they were doing other tasks online.
+                            For example, imagine our user is browsing their favorite fashion blog on Tumblr or Pinterest.
+                            Ask Macy's will analyze the blog's images using background processes and notify the user of similar clothing/items that are available for sale on Macy's.
+                            This way the user is presented with items that are based on their browsing interests, without impeding their normal internet surfing experience.
+                           <strong>Our submission won the Macys.com challenge as well as placing #2 overall at the competition.</strong>
+                        </p>
+                    </dd>
+                    <dt>Technologies Used</dt>
+                    <dd>
+                       <p> Extension's core is built using Angular.js, jQuery for asynchronous HTTP requests, and JavaScript for core logic.
+                           The machine learning side is built off of  <a href="http://www.clarifai.com">Clarifai's</a> Machine learning API.
+                           It enables developers to categorize images and videos into certain categories based on its learned knowledge base.
+                           We also extracted the colors from the images on our page to narrow our searches even further.
+                           We communicated with this API using asynchronous http requests in javascript.
+                        </p>
+                    </dd>
+                    <dt>Challenges</dt>
+                    <dd>
+                        <p>
+                            Developing a service that uses real time machine learning and classification in the browser was an extremely difficult task to do in >8 hours!
+                            Also we did not have access to Macy's API so we gathered most of our information via web scraping with jQuery.
+                            <br/>
+                        </p>
+                    </dd>
+                </dl>
+                <!-- end project -1 -->
                 <!-- project 0 -->
                 <h2>Digits</h2>
                 <dl>
                     <dt>Summary</dt>
                     <dd>
                         <p>
-                           Digits was created and developed over a weekend during The University of Georgia's Hackathon <a href="http://ugahacks.herokuapp.com/">UGA Hacks</a>.
+                           Digits was created and developed over a weekend during The University of Georgia's Hackathon <a href="http://ugahacks.herokuapp.com/">UGA Hacks</a> 2015.
                             Our vision for the product was to essentially recognize, analyze, and interpret American Sign Language (ASL) into words from photos and videos.
                            The software implements <a href="http://www.clarifai.com">Clarifai's</a> API, which allows developers to use images to train different classification models using
                             a neural network. I created the idea and worked with a team of five to develop a prototype to showcase at the end of the weekend.
@@ -185,12 +221,48 @@
                 </dl>
 
                 <header>
-                    <h3>Want to see more?</h3>
+                    <h3>Want to see more or check out the code that powers these projects?</h3>
                     <p>Check out my <a href ="https://www.github.com/montycheese">Github</a></p>
                 </header>
                 </div>
 
                 <div class="6u$ 12u$(medium)">
+                    <!-- project -1 -->
+                    <span class="image fit"><img src="images/projects/ask_macys_1.jpg" alt="ask macys" /></span>
+                    <span class="image fit"><img src="images/projects/ask_macys_2.jpg" alt="Digits!" /></span>
+                    <h4>AngularJS Code Sample:</h4>
+                    <pre style="padding:0px;">
+                        <code style="font-size: 0.8em;">//knowledge base used for classification of images
+$scope.searchTerms = [
+'dress',
+'shirt',
+'jacket',
+'jeans',
+'shoes',
+'sandals',
+'handbag',
+'purse',
+'hat',
+'fedora',
+'suit',
+'denim',
+'backpack',
+'handbag',
+'bag',
+'skirt',
+'swimwear',
+'onesie',
+'underwear',
+... //others removed for brevity
+];
+$scope.adjectives = ['leather', 'classic', 'suede', 'casual', 'summer', 'business', 'fur', 'polo'];
+$scope.colors = ['red', 'green', 'blue', 'black', 'yellow','purple', 'orange', 'khaki', 'beige', 'pink'];
+$scope.genders = ['men', 'women', 'man', 'woman', 'unisex'];
+//example catalog search query: "leather, handbag, black"
+                        </code>
+                    </pre>
+                    <hr/>
+                    <!-- end project -1 -->
                     <!-- project 0 -->
                     <span class="image fit"><img src="images/projects/digits_1.png" alt="Digits" /></span>
                     <span class="image fit"><img src="images/projects/digits_3.png" alt="Digits!" /></span>
@@ -223,7 +295,7 @@ for model in language.keys():
     count += 1
                         </code>
                     </pre>
-		    <br/>
+
                     <hr/>
                     <!-- project 0 end -->
                     <!-- project -->
