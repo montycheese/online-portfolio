@@ -14,7 +14,7 @@
             </iframe>
         </div>
     </div>
-    <p>Last Destination <a href="https://en.wikipedia.org/wiki/Havana">Havana, Cuba</a></p>
+    <p>Last Destination <a href="https://en.wikipedia.org/wiki/Portland,_Oregon">Portland, Oregon</a></p>
 
     <!--
     <br />
